@@ -1,0 +1,77 @@
+.blog-page{
+    margin-top: 104px;
+    z-index: 10;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.blog-head{
+    margin-top: 170px;
+    color:#fff;
+    font-size: 60px;
+    z-index: 10;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+
+
+@media (max-width:768px) {
+    .blog-head{
+        font-size: 30px!important;
+    }
+
+    .blog-page h4{
+        font-size: 16px !important;
+    }
+    .blog-page .link-edit a {
+        font-size:14px !important;
+    }
+    .blog-page .description {
+        font-size: 14px !important;
+    }
+  
+}
+
+.blog-page h4{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.description{
+   text-align:start;
+   display: flex;
+   flex-wrap: wrap;
+   padding-bottom:15px;
+}
+
+.font-logo{
+    margin: 5px;
+}
+
+.all-box a{
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+
+.link-edit a{
+    text-decoration: none;
+    color:#fff;
+    cursor: pointer;
+}
+
+.blog-page .box{
+    position: relative;
+}
+
+.center-btn{
+    position: absolute;
+    bottom: 5px;
+    left:-21px;
+    transform: translate(20%, 0);
+    
+}
